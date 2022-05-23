@@ -1,0 +1,83 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+div#main{
+  height: 1000px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #3D3D3D
+}
+
+section#top{
+  height: 60%;
+}
+
+div *{
+  /* border: solid 1px black; */
+}
+
+nav{
+  margin-left: 30%;
+  width: 40%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 0;
+}
+
+header, footer{
+  height: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+header{
+  
+}
+h1{
+  height: 50%;
+}
+h2{
+  height: 50%;
+  color: #F8F8F8;
+  font-style: italic;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+img#headerLogo{
+  width: 50px;
+  height: 50px;
+}
+
+a.sidebarOptions{
+  
+  /* Centering for Sidebar Options */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  
+  /* Styling choices for Sidebar Options */
+  color: #F8F8F8;
+  border: #71C9FF 5px solid;
+  border-radius: 10px;
+  background-color: #71C9FF;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
